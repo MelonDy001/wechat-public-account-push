@@ -24,11 +24,11 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "宝宝", 
+      id: "oY_-Z6Jb26m5P-OyBBMIaLop-RMs",
+      useTemplateId: "ViYP8qzpm5RAwuxjePAD1hawx33m7rXswrVEPhwCHFQ",
+      province: "江西",
+      city: "鹰潭",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
