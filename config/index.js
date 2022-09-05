@@ -8,26 +8,10 @@ export const config = {
 
   // 公众号APP_SECRET
   APP_SECRET: "c5017edf3ea667e10fb78d9c1cf59ba6",
-
-  /**
-   * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-   * [
-   *  {
-   *    // 想要发送的人的名字
-   *    name: "老婆0",
-   *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *    id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk",
-   *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
-   *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
-   *   }, 
-   * ]
-   */
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oY_-Z6Jb26m5P-OyBBMIaLop-RMs",
       // 你想对他发送的模板消息的模板ID
@@ -102,10 +86,10 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "宝宝", "year": "2003", "date": "11-27"},
+//     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+//     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+//     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
   ],
 
   /**
@@ -123,9 +107,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+    {"keyword": "love_day", date: "2022-06-08"},
+    // 相识纪念日
+    {"keyword": "meet_day", date: "2022-05-27"},
     // 退伍日, 不用可以删掉
     {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
