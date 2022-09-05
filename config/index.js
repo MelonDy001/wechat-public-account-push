@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "",
+  APP_ID: "wx432f9a5885166f27",
 
   // 公众号APP_SECRET
-  APP_SECRET: "",
+  APP_SECRET: "c5017edf3ea667e10fb78d9c1cf59ba6",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -31,11 +31,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "ohxOO6VskY2v40Kuf5ywIZVRM3puXhk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Wue80GrtY1nAi5a4tam4FDxZF59WNx9pwcBc06LMpANnu8",
+      useTemplateId: "MqSeNoC2ZwwyJyzX0tsY1iTw4reDF92yoIpW8WJm-d8",
       // 所在省份
-      province: "广东",
+      province: "江西",
       // 所在城市
-      city: "肇庆",
+      city: "贵溪",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://wangxinleo.cn"
     }, 
@@ -78,7 +78,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
+      id: "oY_-Z6Jb26m5P-OyBBMIaLop-RMs",
     }, 
   ],
     
